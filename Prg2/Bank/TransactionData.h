@@ -17,7 +17,11 @@ public:
 
     int getType();
 
-    void *getData();
+    template<class T>
+    T getData();
+
+    template<class T>
+    void generate(int type, T data);
 };
 
 

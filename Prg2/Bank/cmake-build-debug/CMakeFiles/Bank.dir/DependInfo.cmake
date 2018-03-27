@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/CLionProjects/School/Bank/Account.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Account.cpp.obj"
-  "C:/Users/User/CLionProjects/School/Bank/Bank.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Bank.cpp.obj"
-  "C:/Users/User/CLionProjects/School/Bank/Client.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Client.cpp.obj"
-  "C:/Users/User/CLionProjects/School/Bank/Transaction.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Transaction.cpp.obj"
-  "C:/Users/User/CLionProjects/School/Bank/TransactionData.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/TransactionData.cpp.obj"
-  "C:/Users/User/CLionProjects/School/Bank/TransactionService.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/TransactionService.cpp.obj"
-  "C:/Users/User/CLionProjects/School/Bank/main.cpp" "C:/Users/User/CLionProjects/School/Bank/cmake-build-debug/CMakeFiles/Bank.dir/main.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Account.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Bank.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Client.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Transaction.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/TransactionData.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/TransactionService.cpp.obj"
+  "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/main.cpp" "C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
