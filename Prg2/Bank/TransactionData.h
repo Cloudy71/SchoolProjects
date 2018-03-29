@@ -21,7 +21,7 @@ public:
     T getData();
 
     template<class T>
-    void generate(int type, T data);
+    TransactionData *generate(int, T);
 };
 
 

@@ -6,7 +6,7 @@
 #include "Transaction.h"
 
 TransactionData::TransactionData() {
-    this->_type = TRANSACTION_NOTDEFINED;
+    this->_type = TRANSACTION_NOT_DEFINED;
     this->_data = nullptr;
 }
 
@@ -21,4 +21,12 @@ int TransactionData::getType() {
 template<class T>
 T TransactionData::getData() {
     return (T) this->_data;
+}
+
+template<class T>
+TransactionData *TransactionData::generate(int type, T data) {
+    this->_type = type;
+    this->_data = data;
+
+    return this;
 }

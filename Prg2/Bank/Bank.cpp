@@ -49,6 +49,17 @@ Client *Bank::createClient(int clientCode, string clientName) {
 
     this->_clientCount++;
     this->_clients = (Client **) realloc(this->_clients, sizeof(Client **) * this->_clientCount);
+    this->_clients[this->_clientCount - 1] = client;
 
     return client;
+}
+
+Account *Bank::createAccount(int accountNumber, Client *client) {
+    Account *account = new Account(accountNumber, this, client);
+
+    this->_accountCount++;
+    this->_accounts = (Account **) realloc(this->_accounts, sizeof(Account **) * this->_accountCount);
+    this->_accounts[this->_accountCount - 1] = account;
+
+    return account;
 }
