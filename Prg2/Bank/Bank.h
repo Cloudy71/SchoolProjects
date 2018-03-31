@@ -22,21 +22,21 @@ public:
 
     ~Bank();
 
-    Client *getClient(int);
+    Client *getClient(int clientId);
 
-    Account *getAccount(int);
+    Account *getAccount(int accountNumber);
 
     // Client part
-    Client *createClient(int, string);
+    Client *createClient(int clientId, string clientName);
 
     // Account part
-    Account *createAccount(int, Client *);
+    Account *createAccount(int accountNumber, Client *client);
 
-    Account *createAccount(int, Client *, double);
+    Account *createAccount(int accountNumber, Client *client, double ir);
 
-    Account *createAccount(int, Client *, Client *);
+    Account *createAccount(int accountNumber, Client *client, Client *partner);
 
-    Account *createAccount(int, Client *, Client *, double);
+    Account *createAccount(int accountNumber, Client *client, Client *partner, double ir);
 };
 
 

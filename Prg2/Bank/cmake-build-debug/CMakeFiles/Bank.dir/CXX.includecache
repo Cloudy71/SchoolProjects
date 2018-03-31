@@ -6,37 +6,65 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/User/CLionProjects/School/Bank/Account.cpp
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.cpp
 Account.h
-C:/Users/User/CLionProjects/School/Bank/Account.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
 
-C:/Users/User/CLionProjects/School/Bank/Account.h
-Client.h
-C:/Users/User/CLionProjects/School/Bank/Client.h
-
-C:/Users/User/CLionProjects/School/Bank/Bank.cpp
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
 Bank.h
-C:/Users/User/CLionProjects/School/Bank/Bank.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
+Client.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
+Transaction.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
 
-C:/Users/User/CLionProjects/School/Bank/Bank.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.cpp
+Bank.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
 iostream
 -
 Client.h
-C:/Users/User/CLionProjects/School/Bank/Client.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
 Account.h
-C:/Users/User/CLionProjects/School/Bank/Account.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
 
-C:/Users/User/CLionProjects/School/Bank/Client.cpp
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.cpp
 Client.h
-C:/Users/User/CLionProjects/School/Bank/Client.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
 
-C:/Users/User/CLionProjects/School/Bank/Client.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
 iostream
 -
 
-C:/Users/User/CLionProjects/School/Bank/main.cpp
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.cpp
+Transaction.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
+Bank.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
+TransactionData.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.cpp
+TransactionData.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h
+Transaction.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.cpp
+TransactionService.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.h
+
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/main.cpp
 iostream
 -
 Bank.h
-C:/Users/User/CLionProjects/School/Bank/Bank.h
+C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
 
