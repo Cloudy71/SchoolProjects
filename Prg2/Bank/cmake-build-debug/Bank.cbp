@@ -98,24 +98,6 @@
 		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h">
 			<Option target="Bank"/>
 		</Unit>
-		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.cpp">
-			<Option target="Bank"/>
-		</Unit>
-		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h">
-			<Option target="Bank"/>
-		</Unit>
-		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.cpp">
-			<Option target="Bank"/>
-		</Unit>
-		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h">
-			<Option target="Bank"/>
-		</Unit>
-		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.cpp">
-			<Option target="Bank"/>
-		</Unit>
-		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.h">
-			<Option target="Bank"/>
-		</Unit>
 		<Unit filename="C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/main.cpp">
 			<Option target="Bank"/>
 		</Unit>

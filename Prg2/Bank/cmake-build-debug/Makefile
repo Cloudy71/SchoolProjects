@@ -203,87 +203,6 @@ Client.cpp.s:
 	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Client.cpp.s
 .PHONY : Client.cpp.s
 
-Transaction.obj: Transaction.cpp.obj
-
-.PHONY : Transaction.obj
-
-# target to build an object file
-Transaction.cpp.obj:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Transaction.cpp.obj
-.PHONY : Transaction.cpp.obj
-
-Transaction.i: Transaction.cpp.i
-
-.PHONY : Transaction.i
-
-# target to preprocess a source file
-Transaction.cpp.i:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Transaction.cpp.i
-.PHONY : Transaction.cpp.i
-
-Transaction.s: Transaction.cpp.s
-
-.PHONY : Transaction.s
-
-# target to generate assembly for a file
-Transaction.cpp.s:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Transaction.cpp.s
-.PHONY : Transaction.cpp.s
-
-TransactionData.obj: TransactionData.cpp.obj
-
-.PHONY : TransactionData.obj
-
-# target to build an object file
-TransactionData.cpp.obj:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionData.cpp.obj
-.PHONY : TransactionData.cpp.obj
-
-TransactionData.i: TransactionData.cpp.i
-
-.PHONY : TransactionData.i
-
-# target to preprocess a source file
-TransactionData.cpp.i:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionData.cpp.i
-.PHONY : TransactionData.cpp.i
-
-TransactionData.s: TransactionData.cpp.s
-
-.PHONY : TransactionData.s
-
-# target to generate assembly for a file
-TransactionData.cpp.s:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionData.cpp.s
-.PHONY : TransactionData.cpp.s
-
-TransactionService.obj: TransactionService.cpp.obj
-
-.PHONY : TransactionService.obj
-
-# target to build an object file
-TransactionService.cpp.obj:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionService.cpp.obj
-.PHONY : TransactionService.cpp.obj
-
-TransactionService.i: TransactionService.cpp.i
-
-.PHONY : TransactionService.i
-
-# target to preprocess a source file
-TransactionService.cpp.i:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionService.cpp.i
-.PHONY : TransactionService.cpp.i
-
-TransactionService.s: TransactionService.cpp.s
-
-.PHONY : TransactionService.s
-
-# target to generate assembly for a file
-TransactionService.cpp.s:
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionService.cpp.s
-.PHONY : TransactionService.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -329,15 +248,6 @@ help:
 	@echo ... Client.obj
 	@echo ... Client.i
 	@echo ... Client.s
-	@echo ... Transaction.obj
-	@echo ... Transaction.i
-	@echo ... Transaction.s
-	@echo ... TransactionData.obj
-	@echo ... TransactionData.i
-	@echo ... TransactionData.s
-	@echo ... TransactionService.obj
-	@echo ... TransactionService.i
-	@echo ... TransactionService.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

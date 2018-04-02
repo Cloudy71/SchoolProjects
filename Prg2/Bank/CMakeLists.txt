@@ -3,4 +3,4 @@ project(Bank)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Bank main.cpp Bank.cpp Bank.h Client.cpp Client.h Account.cpp Account.h TransactionService.cpp TransactionService.h Transaction.cpp Transaction.h TransactionData.cpp TransactionData.h)
+add_executable(Bank main.cpp Bank.cpp Bank.h Client.cpp Client.h Account.cpp Account.h)

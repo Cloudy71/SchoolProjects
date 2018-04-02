@@ -5,9 +5,7 @@
 #ifndef BANK_ACCOUNT_H
 #define BANK_ACCOUNT_H
 
-#include "Bank.h"
 #include "Client.h"
-#include "Transaction.h"
 
 class Account {
 private:
@@ -15,23 +13,18 @@ private:
     double _balance;
     double _interestRate;
 
-    Bank   *_bank;
     Client *_owner;
     Client *_partner;
 public:
-    Account(int accountNumber, Bank *bank, Client *client);
+    Account(int accountNumber, Client *client, Client *partner, double ir);
 
-    Account(int accountNumber, Bank *bank, Client *client, double ir);
+    Account(int accountNumber, Client *client) : Account(accountNumber, client, nullptr, 1.0) {}
 
-    Account(int accountNumber, Bank *bank, Client *client, Client *partner);
+    Account(int accountNumber, Client *client, double ir) : Account(accountNumber, client, nullptr, ir) {}
 
-    Account(int accountNumber, Bank *bank, Client *client, Client *partner, double ir);
+    Account(int accountNumber, Client *client, Client *partner) : Account(accountNumber, client, partner, 1.0) {}
 
     int getNumber();
-
-    Bank *getBank();
-
-    double getBalance(Transaction * transaction);
 
     double getBalance();
 

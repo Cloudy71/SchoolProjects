@@ -11,12 +11,8 @@ Account.h
 C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
 
 C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
-Bank.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
 Client.h
 C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
-Transaction.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
 
 C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.cpp
 Bank.h
@@ -37,30 +33,6 @@ C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
 C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
 iostream
 -
-
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.cpp
-Transaction.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
-
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
-Bank.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
-TransactionData.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h
-
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.cpp
-TransactionData.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h
-Transaction.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/Transaction.h
-
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionData.h
-
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.cpp
-TransactionService.h
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.h
-
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/TransactionService.h
 
 C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/main.cpp
 iostream

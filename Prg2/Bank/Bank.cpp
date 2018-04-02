@@ -16,12 +16,12 @@ Bank::~Bank() {
     for (int i = 0; i < this->_clientCount; i++) {
         delete this->_clients[i];
     }
-    delete this->_clients;
+    delete[] this->_clients;
 
     for (int i = 0; i < this->_accountCount; i++) {
         delete this->_accounts[i];
     }
-    delete this->_accounts;
+    delete[] this->_accounts;
 }
 
 Client *Bank::getClient(int clientCode) {
@@ -54,8 +54,8 @@ Client *Bank::createClient(int clientCode, string clientName) {
     return client;
 }
 
-Account *Bank::createAccount(int accountNumber, Client *client) {
-    Account *account = new Account(accountNumber, this, client);
+Account *Bank::createAccount(int accountNumber, Client *client, Client *partner, double ir) {
+    Account *account = new Account(accountNumber, client, partner, ir);
 
     this->_accountCount++;
     this->_accounts = (Account **) realloc(this->_accounts, sizeof(Account **) * this->_accountCount);

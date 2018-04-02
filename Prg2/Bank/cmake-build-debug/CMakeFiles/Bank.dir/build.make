@@ -152,87 +152,12 @@ CMakeFiles/Bank.dir/Account.cpp.obj.provides: CMakeFiles/Bank.dir/Account.cpp.ob
 CMakeFiles/Bank.dir/Account.cpp.obj.provides.build: CMakeFiles/Bank.dir/Account.cpp.obj
 
 
-CMakeFiles/Bank.dir/TransactionService.cpp.obj: CMakeFiles/Bank.dir/flags.make
-CMakeFiles/Bank.dir/TransactionService.cpp.obj: ../TransactionService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bank.dir/TransactionService.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bank.dir\TransactionService.cpp.obj -c C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\TransactionService.cpp
-
-CMakeFiles/Bank.dir/TransactionService.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bank.dir/TransactionService.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\TransactionService.cpp > CMakeFiles\Bank.dir\TransactionService.cpp.i
-
-CMakeFiles/Bank.dir/TransactionService.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bank.dir/TransactionService.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\TransactionService.cpp -o CMakeFiles\Bank.dir\TransactionService.cpp.s
-
-CMakeFiles/Bank.dir/TransactionService.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Bank.dir/TransactionService.cpp.obj.requires
-
-CMakeFiles/Bank.dir/TransactionService.cpp.obj.provides: CMakeFiles/Bank.dir/TransactionService.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionService.cpp.obj.provides.build
-.PHONY : CMakeFiles/Bank.dir/TransactionService.cpp.obj.provides
-
-CMakeFiles/Bank.dir/TransactionService.cpp.obj.provides.build: CMakeFiles/Bank.dir/TransactionService.cpp.obj
-
-
-CMakeFiles/Bank.dir/Transaction.cpp.obj: CMakeFiles/Bank.dir/flags.make
-CMakeFiles/Bank.dir/Transaction.cpp.obj: ../Transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bank.dir/Transaction.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bank.dir\Transaction.cpp.obj -c C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\Transaction.cpp
-
-CMakeFiles/Bank.dir/Transaction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bank.dir/Transaction.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\Transaction.cpp > CMakeFiles\Bank.dir\Transaction.cpp.i
-
-CMakeFiles/Bank.dir/Transaction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bank.dir/Transaction.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\Transaction.cpp -o CMakeFiles\Bank.dir\Transaction.cpp.s
-
-CMakeFiles/Bank.dir/Transaction.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Bank.dir/Transaction.cpp.obj.requires
-
-CMakeFiles/Bank.dir/Transaction.cpp.obj.provides: CMakeFiles/Bank.dir/Transaction.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Transaction.cpp.obj.provides.build
-.PHONY : CMakeFiles/Bank.dir/Transaction.cpp.obj.provides
-
-CMakeFiles/Bank.dir/Transaction.cpp.obj.provides.build: CMakeFiles/Bank.dir/Transaction.cpp.obj
-
-
-CMakeFiles/Bank.dir/TransactionData.cpp.obj: CMakeFiles/Bank.dir/flags.make
-CMakeFiles/Bank.dir/TransactionData.cpp.obj: ../TransactionData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Bank.dir/TransactionData.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bank.dir\TransactionData.cpp.obj -c C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\TransactionData.cpp
-
-CMakeFiles/Bank.dir/TransactionData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bank.dir/TransactionData.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\TransactionData.cpp > CMakeFiles\Bank.dir\TransactionData.cpp.i
-
-CMakeFiles/Bank.dir/TransactionData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bank.dir/TransactionData.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\TransactionData.cpp -o CMakeFiles\Bank.dir\TransactionData.cpp.s
-
-CMakeFiles/Bank.dir/TransactionData.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Bank.dir/TransactionData.cpp.obj.requires
-
-CMakeFiles/Bank.dir/TransactionData.cpp.obj.provides: CMakeFiles/Bank.dir/TransactionData.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/TransactionData.cpp.obj.provides.build
-.PHONY : CMakeFiles/Bank.dir/TransactionData.cpp.obj.provides
-
-CMakeFiles/Bank.dir/TransactionData.cpp.obj.provides.build: CMakeFiles/Bank.dir/TransactionData.cpp.obj
-
-
 # Object files for target Bank
 Bank_OBJECTS = \
 "CMakeFiles/Bank.dir/main.cpp.obj" \
 "CMakeFiles/Bank.dir/Bank.cpp.obj" \
 "CMakeFiles/Bank.dir/Client.cpp.obj" \
-"CMakeFiles/Bank.dir/Account.cpp.obj" \
-"CMakeFiles/Bank.dir/TransactionService.cpp.obj" \
-"CMakeFiles/Bank.dir/Transaction.cpp.obj" \
-"CMakeFiles/Bank.dir/TransactionData.cpp.obj"
+"CMakeFiles/Bank.dir/Account.cpp.obj"
 
 # External object files for target Bank
 Bank_EXTERNAL_OBJECTS =
@@ -241,14 +166,11 @@ Bank.exe: CMakeFiles/Bank.dir/main.cpp.obj
 Bank.exe: CMakeFiles/Bank.dir/Bank.cpp.obj
 Bank.exe: CMakeFiles/Bank.dir/Client.cpp.obj
 Bank.exe: CMakeFiles/Bank.dir/Account.cpp.obj
-Bank.exe: CMakeFiles/Bank.dir/TransactionService.cpp.obj
-Bank.exe: CMakeFiles/Bank.dir/Transaction.cpp.obj
-Bank.exe: CMakeFiles/Bank.dir/TransactionData.cpp.obj
 Bank.exe: CMakeFiles/Bank.dir/build.make
 Bank.exe: CMakeFiles/Bank.dir/linklibs.rsp
 Bank.exe: CMakeFiles/Bank.dir/objects1.rsp
 Bank.exe: CMakeFiles/Bank.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Bank.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mil0068\Documents\GIT_SchoolProjects\Prg2\Bank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Bank.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Bank.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -260,9 +182,6 @@ CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/main.cpp.obj.requires
 CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/Bank.cpp.obj.requires
 CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/Client.cpp.obj.requires
 CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/Account.cpp.obj.requires
-CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/TransactionService.cpp.obj.requires
-CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/Transaction.cpp.obj.requires
-CMakeFiles/Bank.dir/requires: CMakeFiles/Bank.dir/TransactionData.cpp.obj.requires
 
 .PHONY : CMakeFiles/Bank.dir/requires
 
