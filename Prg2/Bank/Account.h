@@ -18,11 +18,11 @@ private:
 public:
     Account(int accountNumber, Client *client, Client *partner, double ir);
 
-    Account(int accountNumber, Client *client) : Account(accountNumber, client, nullptr, 1.0) {}
+    Account(int accountNumber, Client *client) : Account(accountNumber, client, nullptr, 0.0) {}
 
     Account(int accountNumber, Client *client, double ir) : Account(accountNumber, client, nullptr, ir) {}
 
-    Account(int accountNumber, Client *client, Client *partner) : Account(accountNumber, client, partner, 1.0) {}
+    Account(int accountNumber, Client *client, Client *partner) : Account(accountNumber, client, partner, 0.0) {}
 
     int getNumber();
 

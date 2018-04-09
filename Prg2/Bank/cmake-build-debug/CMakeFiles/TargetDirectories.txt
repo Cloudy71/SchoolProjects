@@ -1,3 +1,3 @@
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mil0068/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/Bank.dir
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/cmake-build-debug/CMakeFiles/rebuild_cache.dir

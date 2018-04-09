@@ -63,3 +63,11 @@ Account *Bank::createAccount(int accountNumber, Client *client, Client *partner,
 
     return account;
 }
+
+int Bank::getClientCount() {
+    return this->_clientCount;
+}
+
+int Bank::getAccountCount() {
+    return this->_accountCount;
+}
