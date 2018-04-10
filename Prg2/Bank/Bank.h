@@ -13,10 +13,10 @@ using namespace std;
 
 class Bank {
 private:
-    Client **_clients;
-    int _clientCount;
+    Client  **_clients;
+    int     _clientCount;
     Account **_accounts;
-    int _accountCount;
+    int     _accountCount;
 public:
     Bank();
 
@@ -43,6 +43,11 @@ public:
     Account *createAccount(int accountNumber, Client *client, Client *partner) {
         return createAccount(accountNumber, client, partner, 1.0);
     }
+
+    // Getters
+    int getClientCount();
+
+    int getAccountCount();
 };
 
 

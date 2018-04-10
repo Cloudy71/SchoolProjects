@@ -5,11 +5,11 @@
 #include "Account.h"
 
 Account::Account(int accountNumber, Client *client, Client *partner, double ir) {
-    this->_number = accountNumber;
-    this->_owner = client;
-    this->_partner = partner;
+    this->_number       = accountNumber;
+    this->_owner        = client;
+    this->_partner      = partner;
     this->_interestRate = ir;
-    this->_balance = 0.0;
+    this->_balance      = 0.0;
 }
 
 int Account::getNumber() {
@@ -50,4 +50,5 @@ bool Account::withdraw(double amount) {
 
 void Account::addInterest() {
     // Something will happen..
+    this->_balance += this->_balance * this->_interestRate;
 }
