@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Account.cpp
+Account.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
+Client.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.cpp
+Bank.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
+iostream
+-
+Client.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
+Account.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Account.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Client.cpp
+Client.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Client.h
+iostream
+-
+
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/main.cpp
+iostream
+-
+Bank.h
+C:/Users/User/Documents/GIT_SchoolProjects/Prg2/Bank/Bank.h
+
