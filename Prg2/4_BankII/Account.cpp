@@ -4,12 +4,21 @@
 
 #include "Account.h"
 
+int    Account::_objectsCount        = 0;
+double Account::_defaultInterestRate = 0.0;
+
 Account::Account(int accountNumber, Client *client, Client *partner, double ir) {
     this->_number       = accountNumber;
     this->_owner        = client;
     this->_partner      = partner;
     this->_interestRate = ir;
     this->_balance      = 0.0;
+
+    Account::_objectsCount++;
+}
+
+Account::~Account() {
+    Account::_objectsCount--;
 }
 
 int Account::getNumber() {
@@ -51,4 +60,16 @@ bool Account::withdraw(double amount) {
 void Account::addInterest() {
     // Something will happen..
     this->_balance += this->_balance * this->_interestRate;
+}
+
+int Account::getObjectsCount() {
+    return Account::_objectsCount;
+}
+
+double Account::getDefaultInterestRate() {
+    return Account::_defaultInterestRate;
+}
+
+void Account::setDefaultInterestRate(double ir) {
+    Account::_defaultInterestRate = ir;
 }

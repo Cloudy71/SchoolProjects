@@ -9,6 +9,9 @@
 
 class Account {
 private:
+    static int    _objectsCount;
+    static double _defaultInterestRate;
+
     int    _number;
     double _balance;
     double _interestRate;
@@ -18,11 +21,14 @@ private:
 public:
     Account(int accountNumber, Client *client, Client *partner, double ir);
 
-    Account(int accountNumber, Client *client) : Account(accountNumber, client, nullptr, 0.0) {}
+    Account(int accountNumber, Client *client) : Account(accountNumber, client, nullptr, _defaultInterestRate) {}
 
     Account(int accountNumber, Client *client, double ir) : Account(accountNumber, client, nullptr, ir) {}
 
-    Account(int accountNumber, Client *client, Client *partner) : Account(accountNumber, client, partner, 0.0) {}
+    Account(int accountNumber, Client *client, Client *partner) : Account(accountNumber, client, partner,
+                                                                          _defaultInterestRate) {}
+
+    ~Account();
 
     int getNumber();
 
@@ -41,6 +47,12 @@ public:
     bool withdraw(double amount);
 
     void addInterest();
+
+    static int getObjectsCount();
+
+    static double getDefaultInterestRate();
+
+    static void setDefaultInterestRate(double ir);
 };
 
 

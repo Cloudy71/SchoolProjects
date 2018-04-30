@@ -33,7 +33,7 @@ public:
     Account *createAccount(int accountNumber, Client *client, Client *partner, double ir);
 
     Account *createAccount(int accountNumber, Client *client) {
-        return createAccount(accountNumber, client, nullptr, 1.0);
+        return createAccount(accountNumber, client, nullptr, Account::getDefaultInterestRate());
     }
 
     Account *createAccount(int accountNumber, Client *client, double ir) {
@@ -41,7 +41,7 @@ public:
     }
 
     Account *createAccount(int accountNumber, Client *client, Client *partner) {
-        return createAccount(accountNumber, client, partner, 1.0);
+        return createAccount(accountNumber, client, partner, Account::getDefaultInterestRate());
     }
 
     // Getters
