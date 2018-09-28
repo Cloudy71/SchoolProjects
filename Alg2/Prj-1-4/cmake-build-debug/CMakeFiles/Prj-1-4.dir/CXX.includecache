@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/List.cpp
+List.h
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/List.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/List.h
+iostream
+-
+
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/ProjectListAdds.h
+List.h
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/List.h
+
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/ProjectListImpl.cpp
+List.h
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/List.h
+iostream
+-
+
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/main.cpp
+iostream
+-
+sstream
+-
+List.h
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/List.h
+ProjectListAdds.h
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/ProjectListAdds.h
+

@@ -1,0 +1,3 @@
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/cmake-build-debug/CMakeFiles/Prj-1-4.dir
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/GIT_SchoolProjects/Alg2/Prj-1-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
