@@ -1,3 +1,7 @@
+from binascii import hexlify
+from math import sqrt
+
+
 def factorial(n):
     """
     0.5 point
@@ -13,6 +17,7 @@ def factorial(n):
     else:
         return 1
     pass
+
 
 def dot_product(a, b):
     """
@@ -47,10 +52,10 @@ def is_palindrome(data):
         is_palindrome('abc') == False
     """
 
-    ln = int(len(data) / 2)
-    return data[0:ln + 1:1] == data[len(data):ln - 1:-1]
+    return data[::1] == data[::-1]
 
     pass
+
 
 def lex_compare(a, b):
     """
@@ -63,7 +68,11 @@ def lex_compare(a, b):
         lex_compare('dum', 'automobil') == 'automobil'
     """
 
-    return a if len(a) < len(b) else b
+    words = [a, b]
+    words.sort()
+
+    return words[0]
+
     pass
 
 
@@ -76,6 +85,13 @@ def redact(data, chars):
         redact("Hello world!", "lo")        # Hexxx wxrxd!
         redact("Secret message", "mse")     # xxcrxt xxxxagx
     """
+
+    for c in chars:
+        data = data.replace(c.lower(), 'x')
+        data = data.replace(c.upper(), 'x')
+
+    return data
+
     pass
 
 
@@ -87,6 +103,10 @@ def std_dev(data):
     Equation: √(Σᵢ((xᵢ - x̅̅)²) / |data|)
     (sqrt(sum(square(xi - mean)) / len(data))
     """
+
+    return sqrt(sum((e - (sum(data) / len(data))) ** 2 for e in data) / len(data))
+    # Yes... it hurts.
+
     pass
 
 
@@ -112,13 +132,13 @@ def count_words(data):
         }
     """
 
-    words = data.split(" ")
+    words = data.split(" ") if len(data) > 0 else []
     map = {}
     for x in words:
-        if map.get(x) == None:
+        if map.get(x) is None:
             map[x] = 1
         else:
-            map[x] = map[x] + 1
+            map[x] += 1
 
     return map
 
@@ -128,9 +148,19 @@ def count_words(data):
 def bonus_utf8(cp):
     """
     1 point (bonus)
-    Encode `cp` (a Unicode code point) into 1-4 UTF-8 bytes - you should know this from `Logické obvody`.
+    Encode `cp` (a Unicode code point) into 1-4 UTF-8 bytes - you should know this from `Logické obvody`. GOOD :>
     Example:
         bonus_utf8(0x01) == [0x01]
         bonus_utf8(0x1F601) == [0xF0, 0x9F, 0x98, 0x81]
     """
+
+    hex = hexlify(chr(cp).encode("utf-8"))
+    ints = []
+    for h in range(int(len(hex) / 2)):
+        ints.append(int(hex[h * 2: h * 2 + 2], 16))
+
+    return ints
+
+    # Kind of life cheat? I don't think I'll get any point from it, but well.. At least i tried.
+
     pass
