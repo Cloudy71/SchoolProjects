@@ -110,6 +110,9 @@ def std_dev(data):
     pass
 
 
+print(std_dev([1, 3, 3, 5, -6, 8, 12]))
+
+
 def count_words(data):
     """
     0.5 point

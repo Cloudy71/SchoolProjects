@@ -13,13 +13,22 @@ def filter_file(path, keyword):
         no, this is Patrick
     """
 
+    ret = []
     with open(path, "r") as file:
         lines = file.readlines()
         for line in lines:
+            line = line[0:len(line) - 1] if "\n" in line else line
+            if keyword in line:
+                ret.append(line)
+                pass
+            pass
+        pass
 
+    return ret
     pass
 
-filter_file('test.txt', 'car')
+
+# print(filter_file('test.txt', 'car'))
 
 
 def sort_file(source, target):
@@ -45,10 +54,23 @@ def sort_file(source, target):
         dceb
         fff
     """
+
+    with open(source, "r") as sFile:
+        lines = sFile.readlines()
+        lines.sort()
+        with open(target, "w") as tFile:
+            for line in lines:
+                tFile.write(line)
+                pass
+            pass
+
     pass
 
 
-def incrementor(n):
+# sort_file("test.txt", "to.txt")
+
+
+def incrementor(n=1):
     """
     0.5 point
     Return a function that will add `n` to its parameter.
@@ -61,7 +83,14 @@ def incrementor(n):
         inc = incrementor()
         inc(2) # 3
     """
+
+    return (lambda x:
+            n + x
+            )
     pass
+
+
+# print(incrementor()(0))
 
 
 def fibonacci_closure():
@@ -76,7 +105,26 @@ def fibonacci_closure():
         g() # 3
         ...
     """
-    pass
+
+    global n, nV
+    n = 0
+    nV = [None, None]
+
+    def seq():
+        global n, nV
+
+        nO = nV[0]
+        nV[0] = 0 if n is 0 else 1 if n is 1 else nV[1]
+        nV[1] = 1 if n is 0 or n is 1 else nO + nV[1]
+        n += 1
+
+        return nV[1]
+        pass
+
+    return seq
+
+
+pass
 
 
 def fibonacci_generator():
@@ -88,6 +136,18 @@ def fibonacci_generator():
             print(i)
         # 1, 1, 2, 3, 5 ...
     """
+    global closure
+    closure = fibonacci_closure()
+
+    def gen():
+        global closure
+        while 1:
+            yield closure()
+            pass
+        pass
+
+    return gen()
+
     pass
 
 
@@ -109,6 +169,19 @@ def cached(f):
         fn(3) == 4 # computed
         fn(1) == 2 # computed
     """
+
+    global cachedKey, cachedValue
+    cachedKey = None
+    cachedValue = None
+
+    def d(v):
+        global cachedKey, cachedValue
+        if v is not cachedKey:
+            cachedValue = f(v)
+            cachedKey = v
+        return cachedValue
+
+    return d
     pass
 
 
