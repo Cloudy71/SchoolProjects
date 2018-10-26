@@ -14,7 +14,7 @@ class Car:
 
 
 class Engine:
-    def drive(self): # similar to abstract method in C++, no implementation
+    def drive(self):  # similar to abstract method in C++, no implementation
         raise NotImplementedError()
 
 

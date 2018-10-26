@@ -2,8 +2,6 @@ import itertools
 import tempfile
 from collections import deque
 
-import pytest
-
 from tasks import (bonus_tree_walker, cached, fibonacci_closure,
                    fibonacci_generator, filter_file, incrementor, sort_file)
 
@@ -83,7 +81,6 @@ def test_fibonacci_generator():
     for i in itertools.islice(g, 1000):
         assert i == sum(q)
         q.append(i)
-
 
 
 def test_cached():

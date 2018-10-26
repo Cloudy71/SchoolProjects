@@ -1,6 +1,3 @@
-import itertools
-from collections import deque
-
 from tasks import (bonus_utf8, count_words, dot_product, factorial,
                    is_palindrome, lex_compare, redact, std_dev)
 
@@ -56,23 +53,23 @@ def test_std_dev():
 
 def test_count_words():
     assert count_words('this car is my favourite what car is this') == \
-    {
-        'this': 2,
-        'car': 2,
-        'is': 2,
-        'my': 1,
-        'favourite': 1,
-        'what': 1
-    }
+           {
+               'this': 2,
+               'car': 2,
+               'is': 2,
+               'my': 1,
+               'favourite': 1,
+               'what': 1
+           }
     assert count_words('what happens in kernel mode stays in kernel mode') == \
-    {
-        'what': 1,
-        'happens': 1,
-        'in': 2,
-        'kernel': 2,
-        'mode': 2,
-        'stays': 1
-    }
+           {
+               'what': 1,
+               'happens': 1,
+               'in': 2,
+               'kernel': 2,
+               'mode': 2,
+               'stays': 1
+           }
     assert count_words('') == {}
 
 
