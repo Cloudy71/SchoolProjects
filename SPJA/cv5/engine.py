@@ -2,11 +2,20 @@ import sys
 from random import Random
 
 import pygame
-from pygame.locals import K_DOWN, K_UP, K_LEFT, K_RIGHT, KEYDOWN, \
-    KEYUP
-from utils import load_image
+
+from Enemy1 import Enemy1
+from Enemy2 import Enemy2
+from Enemy3 import Enemy3
+from Enemy4 import Enemy4
+from Enemy5 import Enemy5
+from Player import Player
+
+from Missile import Missile
+from Pod import Pod
+from Shield import Shield
 
 EVENT_SPAWN_ENEMY = pygame.USEREVENT
+EVENT_SPAWN_POWERUP = pygame.USEREVENT + 1
 
 """
 Implement the following functionality into the game:
@@ -92,151 +101,35 @@ Cheatsheet:
 """
 
 
-class GameObject(pygame.sprite.Sprite):
-    def __init__(self, image, pos):
-        super().__init__()
-        self.image = image
-        self.rect = self.image.get_rect()
-        self.rect.center = pos
-
-    def update(self, engine, delta):
-        pass
-
-    def draw(self, surface):
-        surface.blit(self.image, self.rect)
-
-
-class Missile(GameObject):
-    def __init__(self, player, pos, damage=20, speed=700):
-        super().__init__(load_image('images/bullet.gif'), pos)
-
-        self.player = player
-        self.damage = damage
-        self.speed = speed
-
-    def update(self, engine, delta):
-        """
-        TODO: move missile up by self.speed * self.delta
-        TODO:
-        When missile hits enemy, kill missile and reduce enemy HP by self.damage.
-        If enemy HP will be <= 0, kill the enemy and increase player score by enemy.score.
-        TODO: when enemy moves out of the window, kill enemy and reduce player HP
-        """
-        pass
-
-
-class Enemy(GameObject):
-    def __init__(self, image, pos, health=100, score=10, speed=100):
-        super().__init__(image, pos)
-
-        self.health = health
-        self.score = score
-        self.speed = speed
-
-    def update(self, engine, delta):
-        """
-        TODO: move enemy down by self.speed * self.delta
-        TODO: when enemy leaves screen, kill the enemy and remove 1 player HP
-        TODO: when enemy hits the player, kill the enemy and remove 1 player HP
-        """
-        pass
-
-
-class Player(GameObject):
-    def __init__(self, engine, pos):
-        super().__init__(load_image('images/plane.gif'), pos)
-
-        self.image_straight = self.image
-        self.image_left = load_image('images/plane_turning_right_1.gif')
-        self.image_right = load_image('images/plane_turning_left_1.gif')
-
-        self.engine = engine
-        self.speed = [0, 0]  # [x, y]
-        self.score = 0
-        self.font = pygame.font.Font(None, 36)
-
-        """
-        TODO: store a list of missiles
-        """
-
-    def handle_keys(self, event):
-        speed_value = 500
-        arrows = (K_RIGHT, K_LEFT, K_UP, K_DOWN)
-
-        """
-        TODO: fire a missile on K_SPACE KEYDOWN event
-        """
-
-        if event.type == KEYDOWN:
-            if event.key == K_RIGHT:
-                self.speed[0] = speed_value
-                self.image = self.image_right
-            elif event.key == K_LEFT:
-                self.speed[0] = -speed_value
-                self.image = self.image_left
-            elif event.key == K_UP:
-                self.speed[1] = -speed_value
-            elif event.key == K_DOWN:
-                self.speed[1] = speed_value
-        elif event.type == KEYUP:
-            if event.key in arrows:
-                self.speed = [0, 0]
-                self.image = self.image_straight
-
-    def update(self, engine, delta):
-        x, y = self.speed
-        rect = self.rect
-        self.rect = self.rect.move(x * delta, y * delta)
-        if (self.rect.left <= 0 or
-                self.rect.right >= engine.screen.get_width() or
-                self.rect.top <= 0 or
-                self.rect.bottom >= engine.screen.get_height()):
-            self.rect = rect
-
-        """
-        TODO: update all missiles
-        """
-
-    def draw(self, surface):
-        super().draw(surface)
-        self.draw_status(surface)
-
-        """
-        TODO: draw all missiles
-        """
-
-    def draw_status(self, screen):
-        if pygame.font:
-            # draw score
-            text = self.font.render('Score: {}'.format(self.score), 1,
-                                    (255, 0, 0))
-            textpos = text.get_rect(centerx=screen.get_width() / 2)
-            screen.blit(text, textpos)
-
-            """
-            TODO: draw health of the player
-            """
-
-
 class Engine:
     def __init__(self, width=640, height=480):
         pygame.init()
 
-        pygame.display.set_caption('SPJA invaders')
+        pygame.display.set_caption('SPJA invaders - MIL0068')
         pygame.key.set_repeat(100, 30)
-        pygame.time.set_timer(EVENT_SPAWN_ENEMY, 3000)
+        pygame.time.set_timer(EVENT_SPAWN_ENEMY, 2900)
+        pygame.time.set_timer(EVENT_SPAWN_POWERUP, 3000)
 
         self.width = width
         self.height = height
         self.screen = pygame.display.set_mode((self.width, self.height))
 
         self.clock = pygame.time.Clock()
+        self.delta = 0
 
         self.player = Player(self, (self.width / 2, self.height - 20))
         self.enemies = pygame.sprite.Group()
+        self.missiles = pygame.sprite.Group()
+        self.sprites = pygame.sprite.Group()
+        self.powerups = pygame.sprite.Group()
         self.random = Random()
 
+        pygame.mixer.init()
+        self.sound_explosion = pygame.mixer.Sound("sound/explosion.wav")
+        self.sound_explosion.set_volume(0.1)
+
         self.spawn_enemy()
+        self.spawn_powerup()
 
     def main_loop(self):
         self.background = pygame.Surface(self.screen.get_size())
@@ -244,6 +137,7 @@ class Engine:
         self.background.fill((0, 0, 0))
 
         while True:
+            self.delta = self.clock.tick(60) / 1000
             self.handle_keys()
             self.update()
             self.draw()
@@ -254,13 +148,22 @@ class Engine:
                 sys.exit()
             elif event.type == EVENT_SPAWN_ENEMY:
                 self.spawn_enemy()
+            elif event.type == EVENT_SPAWN_POWERUP:
+                self.spawn_powerup()
             else:
-                self.player.handle_keys(event)
+                self.player.handle_keys(event, self.delta)
 
     def update(self):
-        delta = self.clock.tick(60) / 1000
-        self.enemies.update(self, delta)
-        self.player.update(self, delta)
+        self.enemies.update(self, self.delta)
+        self.missiles.update(self, self.delta)
+        self.player.update(self, self.delta)
+        self.powerups.update(self, self.delta)
+        self.sprites.update(self, self.delta)
+
+        if self.player.health <= 0 and (len(self.enemies) > 0 or len(self.missiles) > 0):
+            self.enemies.empty()
+            self.missiles.empty()
+            self.powerups.empty()
 
     def draw(self):
         self.screen.blit(self.background, (0, 0))
@@ -268,19 +171,66 @@ class Engine:
         for enemy in self.enemies:
             enemy.draw(self.screen)
 
+        for missile in self.missiles:
+            missile.draw(self.screen)
+
+        for powerup in self.powerups:
+            powerup.draw(self.screen)
+
+        for sprite in self.sprites:
+            sprite.draw(self.screen)
+
         self.player.draw(self.screen)
 
         pygame.display.flip()
 
     def spawn_enemy(self):
-        """
-        TODO: spawn an enemy and add him to enemies group
-        """
+        types = 0
+        amount = 1
+        if self.player.score >= 0:
+            types += 1
+        if self.player.score > 1_000:
+            types += 1
+        if self.player.score > 3_000:
+            types += 1
+            amount += 1
+        if self.player.score > 5_000:
+            types += 1
+        if self.player.score > 8_000:
+            types += 1
+            amount += 1
+
+        for i in range(amount):
+            # Spawning enemies is based on player's score.
+            type = self.random.randint(1, types)
+            x = self.random.randint(0, self.width - 32)
+            y = 0
+
+            if type == 1:
+                self.enemies.add(Enemy1([x, y]))
+            elif type == 2:
+                self.enemies.add(Enemy2([x, y]))
+            elif type == 3:
+                self.enemies.add(Enemy3([x, y]))
+            elif type == 4:
+                self.enemies.add(Enemy4([x, y]))
+            elif type == 5:
+                self.enemies.add(Enemy5([x, y]))
         pass
 
-    def end(self):
-        print("GAME OVER")
-        exit(0)
+    def spawn_missile(self):
+        missile = Missile(self.player, (self.player.rect.left + 14, self.player.rect.top + 6))
+        self.missiles.add(missile)
+
+    def spawn_powerup(self):
+        type = self.random.randint(0, 1)
+        pos = (self.random.randint(0, self.width - 24), self.height - self.player.forward_max_y + 32)
+        obj = None
+        if type == 0:
+            obj = Shield(pos)
+        elif type == 1:
+            obj = Pod(pos)
+        self.powerups.add(obj)
 
 
 if __name__ == '__main__':
