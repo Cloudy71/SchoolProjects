@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2146D92-DCA4-6F47-18E5-F3ECF14C4467" name="Highscore">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:18:44 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Highscore</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="DC40BE7E-DCC2-D33C-38C5-60ECF715D2F1">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:18:51 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPU" id="1003300F-6578-AFDC-94A6-CD2C43FB94BD">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:18:57 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GPU" id="A335BEA4-1089-4A71-AD50-26697A217314">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:19:07 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Score" id="48483249-5D5A-D184-3978-BEFC2F1F0D12">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:19:27 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="82AEB6D9-DF73-9128-2DF9-22892D071BF9">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:20:00 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DABCCC6F-EDCA-4FD3-3482-4B45465A32DA" name="Highscore PK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-22 11:18:55 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC40BE7E-DCC2-D33C-38C5-60ECF715D2F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
