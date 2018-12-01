@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RS_Highscore_Highscorer" directorySegmentName="seg_0" id="281C2FD9-ACDB-7401-E874-F119A05BF66A">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 17:26:10 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
+</engineerTo>
+<sourcePk>DABCCC6F-EDCA-4FD3-3482-4B45465A32DA</sourcePk>
+<targetPk>D0965FFA-6579-0100-264D-14B23A7700DB</targetPk>
+<identifying>false</identifying>
+<nameOnSource>HID</nameOnSource>
+<nameOnTarget>v v bv bnvb</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F2146D92-DCA4-6F47-18E5-F3ECF14C4467</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B39C7B83-6E21-070C-46BF-38AFF9471817</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

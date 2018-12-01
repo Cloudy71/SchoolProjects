@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86D256A1-9CDC-C2FA-6308-74F535E5EFB6" name="Ratings">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>C6767C1F-2F47-F87A-AB88-FF2AF5B0D812</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<abbreviation>Ratings</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="24743A63-884B-62BD-CE1F-7765EAE9E868">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>0FBFABCF-0473-02CE-94AD-C7FF5790F130</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating" id="73510B7D-5E58-49BA-E813-80DC92032E47">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>370C4920-1CD1-EEFB-4872-4AD60F9ADA5E</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="B6B29E05-5B96-0213-D4EB-AC93F185E881">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>557F771F-09C1-7F82-FA57-4681031CC096</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Viewer_Users_ID" id="5535E097-D409-07AC-F4F3-8EB12AE0F01F">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>82A1A178-4613-2B8D-58CD-720E4977E824</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20A4B2DE-6790-BC77-E12E-489FD5C46696" referredColumn="EF650A60-3DCD-CFB5-22DB-D786F16F2CED"/>
+</associations>
+</Column>
+<Column name="Highscorer_Users_ID" id="1E323C99-9B3F-469F-B793-34F2C71A2BF6">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>45B287BB-BCB9-4058-B458-8501D9FCCACD</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58552789-359A-2923-AEC6-30112D767EC5" referredColumn="106548F7-BED8-616D-7D80-F86F82E3E697"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E7BBB14-2047-E731-3733-89559D9E9C0B" name="Ratings_PK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>C06C9725-9CA7-2A38-407C-2E7FA6E04C0B</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24743A63-884B-62BD-CE1F-7765EAE9E868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1DE1C3D-7B3E-D21E-7F5B-3D65F9FD0556" name="Ratings_Highscorer_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>0209D3EC-2946-6DA1-889E-F445DC752D53</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E323C99-9B3F-469F-B793-34F2C71A2BF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E70984C-E825-BAD3-8BBB-FFC4786DD7BD" name="Ratings_Viewer_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>3090094A-B6D6-0B42-8A6C-460F9337875D</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5535E097-D409-07AC-F4F3-8EB12AE0F01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

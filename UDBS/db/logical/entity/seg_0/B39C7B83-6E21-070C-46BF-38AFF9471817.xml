@@ -4,7 +4,7 @@
 <createdTime>2018-11-22 11:12:00 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,37 +16,43 @@
 <normalForm>Third</normalForm>
 <shortName>Highscorer</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="UserID" id="4A92EB79-2913-A48D-F5C3-89B3A04A3DD9">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:12:07 UTC</createdTime>
+<Attribute name="PID" id="468FA71F-C2AD-7AFC-3B2C-27CBFEA1FB06">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:19:22 UTC</createdTime>
+<generatorID>A2BC6799-6D40-AFB7-7E9B-4DA962FA1B15</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
 </engineerTo>
+<referedAttribute>208EA911-F751-1A03-83E4-BB6C412257F5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CPU" id="477AFF36-09AC-C01C-7E1A-9467F0DAFA2F">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:12:33 UTC</createdTime>
+<Attribute name="GID" id="3AE6455B-B5D8-D277-35F1-3CE3764AAB2A">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:19:28 UTC</createdTime>
+<generatorID>7607D9B8-1FE4-B457-2A61-EF7DA0317E5C</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
 </engineerTo>
+<referedAttribute>BBEF7E2B-4496-0361-9685-6A007159D70C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GPU" id="9756EC8D-9B75-9958-0213-7AA4DF2872CE">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:12:46 UTC</createdTime>
+<Attribute name="UID" id="F7FD052F-6169-6515-D143-CD808C9BC0D6">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:43:51 UTC</createdTime>
+<generatorID>668D0BF0-24E7-B5B5-53F7-736EC9C9887B</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
 </engineerTo>
+<referedAttribute>640CD650-C305-291B-10FE-C31573898157</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -59,11 +65,11 @@
 <createdTime>2018-11-22 11:12:32 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4A92EB79-2913-A48D-F5C3-89B3A04A3DD9</attributeRef>
+<attributeRef>F7FD052F-6169-6515-D143-CD808C9BC0D6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

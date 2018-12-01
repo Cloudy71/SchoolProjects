@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08C03099-A83A-0A7D-A097-6A0AB26906D3" name="Users">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:07:22 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6767C1F-2F47-F87A-AB88-FF2AF5B0D812" name="Ratings">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:56:54 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
@@ -14,11 +14,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>Users</shortName>
+<shortName>Ratings</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="640CD650-C305-291B-10FE-C31573898157">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:07:35 UTC</createdTime>
+<Attribute name="ID" id="0FBFABCF-0473-02CE-94AD-C7FF5790F130">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:57:00 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
@@ -28,63 +28,63 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Username" id="63AC268A-4119-8A62-0D1B-6DEDD66F5E72">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:07:45 UTC</createdTime>
+<Attribute name="Rating" id="370C4920-1CD1-EEFB-4872-4AD60F9ADA5E">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:57:13 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Password" id="CC5072B5-043C-FA94-F870-9F768CF5C54F">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:07:54 UTC</createdTime>
-<comment>MD5 Based</comment>
+<Attribute name="Date" id="557F771F-09C1-7F82-FA57-4681031CC096">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:57:24 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Email" id="363BE543-A782-120E-C67E-ABB9476FD2F6">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:08:44 UTC</createdTime>
+<Attribute name="VID" id="82A1A178-4613-2B8D-58CD-720E4977E824">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 17:50:42 UTC</createdTime>
+<generatorID>3090094A-B6D6-0B42-8A6C-460F9337875D</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
+<referedAttribute>AB94F759-1B5E-C166-62C7-F5B23D14E408</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DateRegistered" id="F7092381-9C7C-B34C-7074-A14E783EF41C">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:09:03 UTC</createdTime>
+<Attribute name="HID" directorySegmentName="seg_0" id="45B287BB-BCB9-4058-B458-8501D9FCCACD">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:11:41 UTC</createdTime>
+<generatorID>0209D3EC-2946-6DA1-889E-F445DC752D53</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
+<referedAttribute>F7FD052F-6169-6515-D143-CD808C9BC0D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0DA111B2-2D2F-7CE5-39D4-C0C4EE1EC93E" name="Users PK">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:07:44 UTC</createdTime>
+<identifier id="C06C9725-9CA7-2A38-407C-2E7FA6E04C0B" name="Ratings PK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:57:04 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -92,7 +92,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>640CD650-C305-291B-10FE-C31573898157</attributeRef>
+<attributeRef>0FBFABCF-0473-02CE-94AD-C7FF5790F130</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -4,18 +4,17 @@
 <createdTime>2018-11-22 11:16:20 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <sourcePk>34426DA3-468C-1954-2C5D-96B02CFF4A50</sourcePk>
-<targetPk>2098C0A4-D3B6-0640-1D8D-D14902135008</targetPk>
 <identifying>false</identifying>
 <nameOnSource>ID</nameOnSource>
 <nameOnTarget>BrandID</nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F31985A2-6A35-130F-4956-81FEA29840F7</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>5895731F-BCEE-C276-B88F-63C845F26EB9</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

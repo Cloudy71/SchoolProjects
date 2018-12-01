@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="7607D9B8-1FE4-B457-2A61-EF7DA0317E5C">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:15:29 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="195DABA3-8AD5-E98A-6B68-2899F5E64AFB">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 17:24:06 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
 <item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
-<sourcePk>D0965FFA-6579-0100-264D-14B23A7700DB</sourcePk>
+<sourcePk>DABCCC6F-EDCA-4FD3-3482-4B45465A32DA</sourcePk>
 <targetPk>2098C0A4-D3B6-0640-1D8D-D14902135008</targetPk>
 <identifying>false</identifying>
-<nameOnSource>GPUID</nameOnSource>
+<nameOnSource>CPU</nameOnSource>
 <nameOnTarget>ID</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>B39C7B83-6E21-070C-46BF-38AFF9471817</sourceEntity>
+<sourceEntity>F2146D92-DCA4-6F47-18E5-F3ECF14C4467</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>5895731F-BCEE-C276-B88F-63C845F26EB9</targetEntity>
 <transferable>true</transferable>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="195FA53D-B7D4-1DB9-566E-519A3C106E1E" containerWithKeyObject="25FDEAC4-FD58-977A-3EA6-4102033678EA" localFKIndex="CC067FB1-0C96-1761-44D5-BA447D92BA3F" name="Highscorer_Graphics_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>7607D9B8-1FE4-B457-2A61-EF7DA0317E5C</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<referredTableLongName>Graphics</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32D7369D-106E-C2D2-73C9-E35AA7B0EF93</referredTableID>
+<keyObject>7E098631-FCD4-ACF1-0A8F-5CE638809B8A</keyObject>
+<referredKeyID>7E098631-FCD4-ACF1-0A8F-5CE638809B8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

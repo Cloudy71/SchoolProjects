@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21762AEF-3A21-F238-2E11-81A2256E626B" containerWithKeyObject="32D7369D-106E-C2D2-73C9-E35AA7B0EF93" localFKIndex="DBDC3A75-6559-3208-537E-D20A51F079B1" name="Graphics_Chipsets_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>250D23BC-5977-483A-80A6-8D55172EEED5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<referredTableLongName>Chipsets</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4607BCAC-86A3-C390-5453-27BD70D88558</referredTableID>
+<keyObject>3092A7D8-7423-344C-BED5-6ADD760D3AC4</keyObject>
+<referredKeyID>3092A7D8-7423-344C-BED5-6ADD760D3AC4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

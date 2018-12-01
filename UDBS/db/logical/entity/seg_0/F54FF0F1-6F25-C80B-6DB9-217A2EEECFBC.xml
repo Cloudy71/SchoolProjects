@@ -4,7 +4,7 @@
 <createdTime>2018-11-22 11:10:37 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,13 +16,15 @@
 <normalForm>Third</normalForm>
 <shortName>Viewer</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="UserID" id="476971D9-3C0B-5CC7-C01B-34DFBEAB6450">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:10:51 UTC</createdTime>
+<Attribute name="UID" id="AB94F759-1B5E-C166-62C7-F5B23D14E408">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:43:54 UTC</createdTime>
+<generatorID>F9F5DB3A-F80C-8C8A-FD9E-107558F607F5</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
+<referedAttribute>640CD650-C305-291B-10FE-C31573898157</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -34,12 +36,13 @@
 <createdBy>User</createdBy>
 <createdTime>2018-11-22 11:11:01 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>476971D9-3C0B-5CC7-C01B-34DFBEAB6450</attributeRef>
+<attributeRef>AB94F759-1B5E-C166-62C7-F5B23D14E408</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

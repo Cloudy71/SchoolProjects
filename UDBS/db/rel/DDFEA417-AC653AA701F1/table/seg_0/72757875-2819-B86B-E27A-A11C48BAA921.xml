@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72757875-2819-B86B-E27A-A11C48BAA921" name="Processor">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>7559CFB3-35C0-97BA-AAEA-567DF3E230FE</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<abbreviation>CPU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B2F78F54-F675-6083-FE47-7BDA1EC93AD2">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>208EA911-F751-1A03-83E4-BB6C412257F5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="45174919-76E3-BA20-ECC7-62B236A009F1">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>FE5C1C35-56F7-D031-91F2-B8564F08305C</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Frequency" id="BF677D62-3F3F-2727-5C41-C016369FED9E">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>37FCCD9B-EAA4-F9A8-F3D5-2B20D99A4E95</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReleaseDate" id="C63748EC-7083-5926-9195-64E62B36A6C1">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>B230943A-B047-5E90-79B1-5AA08F330428</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brands_ID" id="CA0F655A-510B-C605-6D29-351CF6283A7D">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>7FD4191B-64B3-D43B-94DA-39C80F78D5D4</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F00D88B0-464B-12BE-0E90-264ADB7D753C" referredColumn="65CFFADE-4814-B9AE-1192-2D273C6EC615"/>
+</associations>
+</Column>
+<Column name="Chipsets_ID" id="6A82A0CC-917B-27E2-0D62-0D00A034F5DC">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>0F8B8E77-D454-A005-0120-B3E6F615BC12</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E41906B6-4294-05B3-F531-3C61408EAD45" referredColumn="E91DDE48-7AEA-EE13-11E6-402B654DCDBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2505BC3-5092-C0A4-1F10-A7AE76E05EFB" name="Processor_PK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>37B42457-3D78-95D3-4A25-2E4DBF5C81C2</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2F78F54-F675-6083-FE47-7BDA1EC93AD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1711AC26-C4CF-F53C-5B8F-74EFF0811D0F" name="Processor_Brands_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>E9DFE529-0936-387A-45FA-B60C0A77F01F</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA0F655A-510B-C605-6D29-351CF6283A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF866998-B5D6-9E07-25C6-5759D275F352" name="Processor_Chipsets_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>589DB070-4C90-F569-344F-E28E20545AEE</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A82A0CC-917B-27E2-0D62-0D00A034F5DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

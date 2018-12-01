@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D7369D-106E-C2D2-73C9-E35AA7B0EF93" name="Graphics">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>5895731F-BCEE-C276-B88F-63C845F26EB9</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<abbreviation>GPU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E599CECB-ABFD-13AE-DCC9-8EC0EF4E30CF">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>BBEF7E2B-4496-0361-9685-6A007159D70C</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="960BAF66-5E8F-67FF-E0C1-8166650371C8">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>49532ABD-840E-A012-C39A-F672E7B0CE5F</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CoreFrequency" id="73C8B32A-CE5E-5883-39CF-A77713E6DCAE">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>D42CF760-2E58-3D46-34E3-1E6A1C0E0716</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TurboFrequency" id="5C45E71B-2514-17C3-8D29-3AFFCB6D0957">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>F2E06989-A15C-D2A3-E58F-64CD5ED3B4F3</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MemoryFrequency" id="F85C586F-DFE8-716F-F477-2124985A2B2C">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>3E69A9FC-44A1-B9F7-7FDF-DE8568220ED9</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MemorySize" id="44E5DB39-F3CA-3714-73F5-D106D987F4A9">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>CC2B6588-1F01-1CE6-5C93-971271809BD9</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PowerConsumption" id="4498D456-6B89-7DA6-A2F3-CA0D5BB10796">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>495FC388-5828-86D9-BE25-939E1082773A</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brands_ID" id="B0BDDC4D-AABB-7160-DC5F-163B5C0245CB">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>472E6C5D-DD4F-36D9-7417-CB9194864485</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1B56620-8C49-C870-973C-CF3E29F7B023" referredColumn="65CFFADE-4814-B9AE-1192-2D273C6EC615"/>
+</associations>
+</Column>
+<Column name="Chipsets_ID" id="BD8A70C6-F507-9065-BFEF-3CB8AEE54C81">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>7F984F3C-9F45-9EBF-680F-A93F333FA0C3</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21762AEF-3A21-F238-2E11-81A2256E626B" referredColumn="E91DDE48-7AEA-EE13-11E6-402B654DCDBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E098631-FCD4-ACF1-0A8F-5CE638809B8A" name="Graphics_PK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>2098C0A4-D3B6-0640-1D8D-D14902135008</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E599CECB-ABFD-13AE-DCC9-8EC0EF4E30CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EC0E9B2-190C-1A11-0119-171F4CA88B61" name="Graphics_Brands_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>45EBED08-F4A8-6BBD-26E3-7C1C945B4C6C</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0BDDC4D-AABB-7160-DC5F-163B5C0245CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBDC3A75-6559-3208-537E-D20A51F079B1" name="Graphics_Chipsets_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>250D23BC-5977-483A-80A6-8D55172EEED5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD8A70C6-F507-9065-BFEF-3CB8AEE54C81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

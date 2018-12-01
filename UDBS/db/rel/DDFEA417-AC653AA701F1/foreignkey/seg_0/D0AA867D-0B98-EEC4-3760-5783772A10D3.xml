@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0AA867D-0B98-EEC4-3760-5783772A10D3" containerWithKeyObject="658BA2A1-4203-7D88-1C1D-0550382F7745" localFKIndex="96E5D51E-1657-EDC3-1FC8-2966D11EE0A0" name="Highscore_Highscorer_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>281C2FD9-ACDB-7401-E874-F119A05BF66A</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<referredTableLongName>Highscorer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25FDEAC4-FD58-977A-3EA6-4102033678EA</referredTableID>
+<keyObject>C5E77347-3736-07AA-06A5-E5905B88A689</keyObject>
+<referredKeyID>C5E77347-3736-07AA-06A5-E5905B88A689</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Users_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

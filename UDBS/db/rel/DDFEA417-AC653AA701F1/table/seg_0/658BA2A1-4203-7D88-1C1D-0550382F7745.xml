@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="658BA2A1-4203-7D88-1C1D-0550382F7745" name="Highscore">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>F2146D92-DCA4-6F47-18E5-F3ECF14C4467</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<abbreviation>Highscore</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C7309A72-B793-C84E-338F-CC5D7F3113BC">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>DC40BE7E-DCC2-D33C-38C5-60ECF715D2F1</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Score" id="27B81E67-9FF9-0BF7-2B3E-3D8D995BBD74">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>48483249-5D5A-D184-3978-BEFC2F1F0D12</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="F42BC5BD-13AF-7E8A-7A7E-A795978EE73F">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>82AEB6D9-DF73-9128-2DF9-22892D071BF9</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MinFPS" id="4D916E33-6D48-8B65-ADFA-209BF5AA52E4">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>32B1FBE9-3FDA-2948-3D58-B76FA6512BCD</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AverageFPS" id="066979D6-17D6-915D-AFED-1439A5111E28">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>53D7E811-1F76-9E56-0BC0-2E376BE1D4F5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaxFPS" id="E20ACA49-7107-E4FA-6A6B-2041F3419559">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>414D7506-4DD2-E82B-C02E-6B6E3B0D183F</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Graphics_ID" id="A536CA5F-EB80-26E6-6593-2ADE3C70F11F">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>1D1A8ADE-77B0-C85B-7D2F-84F3F06AEA28</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E0FD6B9-48AD-6F9B-87F1-7DB01AE90B4B" referredColumn="E599CECB-ABFD-13AE-DCC9-8EC0EF4E30CF"/>
+</associations>
+</Column>
+<Column name="Processor_ID" id="E177E404-90D0-6929-CF55-CD3F7BC0903E">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>54602545-94C4-BE0D-022F-85C3535C1531</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DFF5FAF-E704-44AB-0F26-D4D6E6631645" referredColumn="B2F78F54-F675-6083-FE47-7BDA1EC93AD2"/>
+</associations>
+</Column>
+<Column name="Highscorer_Users_ID" id="3CB5E08F-1E19-2F03-4DDA-9E6FB472E7B7">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>B79F9CC5-3C34-D34B-BF26-0ECC77EAF41D</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0AA867D-0B98-EEC4-3760-5783772A10D3" referredColumn="106548F7-BED8-616D-7D80-F86F82E3E697"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4AAD962-D478-DF26-D70C-9C70C7DA301D" name="Highscore_PK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>DABCCC6F-EDCA-4FD3-3482-4B45465A32DA</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7309A72-B793-C84E-338F-CC5D7F3113BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8128F9F9-C459-B9DB-FBF0-798D387496D3" name="Highscore_Graphics_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>195DABA3-8AD5-E98A-6B68-2899F5E64AFB</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A536CA5F-EB80-26E6-6593-2ADE3C70F11F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDA6715B-0D36-1298-17C8-E45EE51532C5" name="Highscore_Processor_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>4B375A4E-6766-1858-C381-E34ED6335E56</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E177E404-90D0-6929-CF55-CD3F7BC0903E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E5D51E-1657-EDC3-1FC8-2966D11EE0A0" name="Highscore_Highscorer_FK">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 18:48:41 UTC</createdTime>
+<generatorID>281C2FD9-ACDB-7401-E874-F119A05BF66A</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CB5E08F-1E19-2F03-4DDA-9E6FB472E7B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

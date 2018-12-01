@@ -4,7 +4,7 @@
 <createdTime>2018-11-22 11:05:13 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2018-11-22 11:05:19 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2018-11-22 11:05:26 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,42 +42,69 @@
 <dataTypeSize>64</dataTypeSize>
 <ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BrandID" id="26C7B908-381F-EAF5-9CE5-00AF6620C7B5">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:05:34 UTC</createdTime>
+<Attribute name="CoreFrequency" id="D42CF760-2E58-3D46-34E3-1E6A1C0E0716">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:49:40 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ChipsetID" id="528DB361-5CE0-1612-CE4C-1E913B81A02C">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:05:43 UTC</createdTime>
+<Attribute name="TurboFrequency" id="F2E06989-A15C-D2A3-E58F-64CD5ED3B4F3">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:50:08 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UserID" id="DCEC15C5-A1A8-A2D5-2B85-9CB60976D361">
-<createdBy>User</createdBy>
-<createdTime>2018-11-22 11:15:29 UTC</createdTime>
-<generatorID>7607D9B8-1FE4-B457-2A61-EF7DA0317E5C</generatorID>
+<Attribute name="MemoryFrequency" id="3E69A9FC-44A1-B9F7-7FDF-DE8568220ED9">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:50:18 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
-<referedAttribute>4A92EB79-2913-A48D-F5C3-89B3A04A3DD9</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemorySize" id="CC2B6588-1F01-1CE6-5C93-971271809BD9">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:50:59 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PowerConsumption" id="495FC388-5828-86D9-BE25-939E1082773A">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-11-30 16:51:07 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID1" id="472E6C5D-DD4F-36D9-7417-CB9194864485">
@@ -86,7 +113,7 @@
 <generatorID>45EBED08-F4A8-6BBD-26E3-7C1C945B4C6C</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <referedAttribute>4C61205A-9B76-B908-9A80-A9317C13FEC7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -100,7 +127,7 @@
 <generatorID>250D23BC-5977-483A-80A6-8D55172EEED5</generatorID>
 <ownerDesignName>db</ownerDesignName>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="true"/>
 </engineerTo>
 <referedAttribute>F5B9B197-4738-5E41-8A9E-456E880BC92E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -114,8 +141,9 @@
 <createdBy>User</createdBy>
 <createdTime>2018-11-22 11:05:25 UTC</createdTime>
 <ownerDesignName>db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1BB006CE-F562-A8E9-1DC4-FDCDE9FAD88B" value="true"/>
+<item key="5515BBD1-DD03-EFD9-012A-96B14860A6EB" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
