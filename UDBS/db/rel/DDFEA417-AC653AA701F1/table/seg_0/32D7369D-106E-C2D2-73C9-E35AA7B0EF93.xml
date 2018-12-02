@@ -38,7 +38,6 @@
 <createdTime>2018-11-30 18:48:41 UTC</createdTime>
 <generatorID>D42CF760-2E58-3D46-34E3-1E6A1C0E0716</generatorID>
 <ownerDesignName>db</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -50,7 +49,6 @@
 <createdTime>2018-11-30 18:48:41 UTC</createdTime>
 <generatorID>F2E06989-A15C-D2A3-E58F-64CD5ED3B4F3</generatorID>
 <ownerDesignName>db</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -62,7 +60,6 @@
 <createdTime>2018-11-30 18:48:41 UTC</createdTime>
 <generatorID>3E69A9FC-44A1-B9F7-7FDF-DE8568220ED9</generatorID>
 <ownerDesignName>db</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -74,7 +71,6 @@
 <createdTime>2018-11-30 18:48:41 UTC</createdTime>
 <generatorID>CC2B6588-1F01-1CE6-5C93-971271809BD9</generatorID>
 <ownerDesignName>db</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -86,7 +82,6 @@
 <createdTime>2018-11-30 18:48:41 UTC</createdTime>
 <generatorID>495FC388-5828-86D9-BE25-939E1082773A</generatorID>
 <ownerDesignName>db</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
