@@ -35,12 +35,23 @@
 <engineerTo>
 <item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>64</dataTypeSize>
 <ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ReleaseDate" id="86416182-9982-800A-32DA-C0F0F3FFAAE9">
+<createdBy>mil0068</createdBy>
+<createdTime>2018-12-07 21:54:43 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="DDFEA417-F779-7716-DAF9-AC653AA701F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CoreFrequency" id="D42CF760-2E58-3D46-34E3-1E6A1C0E0716">
 <createdBy>mil0068</createdBy>
